@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+}
+.navigation {
+  width: 50%;
+  height: 100vh;
+  background: #0a0a0a;
+}
+@media screen and (max-width: 600px) {
+  .navigation {
+    width: 100%;
+    height: 100%;
+    background: #0a0a0a;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 2.5rem;
+  padding-left: 6rem;
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    padding-left: 1rem;
+  }
+}
+
+/* Forgot pass */
+
+.menu {
+  padding-top: 7rem;
+  /* text-align: center; */
+  padding-left: 7rem;
+}
+@media screen and (max-width: 600px) {
+  .menu {
+    padding-top: 7rem;
+    padding-left: 1rem;
+  }
+}
+
+.forgot-h {
+  font-size: 25px;
+  padding-right: 10.5rem;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.pragraphs {
+  margin-top: 10px;
+  font-size: 21px;
+  padding-right: 8rem;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.input input {
+  padding: 15px;
+  width: 70%;
+  border-radius: 25px;
+  margin-top: 1.8rem;
+  color: #ffffff;
+  background: #2b2a2a;
+  border: none;
+  outline: none;
+}
+
+.button button {
+  text-decoration: none;
+  background-color: #b6450f;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 15px;
+  width: 70%;
+  border-radius: 25px;
+  margin-top: 1.5rem;
+  border: none;
+  opacity: 1;
+}
+
+.link {
+  margin-top: 1.5rem;
+  text-align: end;
+  padding-right: 11rem;
+}
+@media screen and (max-width: 600px) {
+  .link {
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    text-align: start;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.link a {
+  text-decoration: none;
+  color: #b6450f;
+}
+
+/* Section Two  */
+
+.maine {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .maine {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+}
+
+.maine {
+  background-image: url(./img/Drum.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.hp h1 {
+  font-weight: 350;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 33px;
+}
+.hp p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 280;
+  font-style: normal;
+  margin-top: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .hp p {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.hp {
+  color: #ffffff;
+  margin-top: 26rem;
+  text-shadow: 2px 2px 9px black;
+}

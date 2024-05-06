@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+/* Header style */
+.header {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+}
+.nav01 {
+  width: 50%;
+  height: 100vh;
+  background: #0a0a0a;
+}
+@media screen and (max-width: 600px) {
+  .nav01 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 6rem;
+  margin-top: 2.5rem;
+}
+@media screen and (max-width: 600px) {
+  .navigation {
+    padding-left: 1rem;
+  }
+}
+.navigation h2 {
+  color: #ffffff;
+  font-size: 22px;
+  opacity: 0.9;
+  font-weight: 350;
+  font-style: normal;
+}
+/* sign in page */
+.menu {
+  margin-top: 4rem;
+  padding-left: 7rem;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: normal;
+}
+@media screen and (max-width: 600px) {
+  .menu {
+    padding-left: 1rem;
+  }
+}
+.hdn-p h1 {
+  opacity: 1;
+}
+.hdn-p p {
+  margin-top: 10px;
+  font-size: 22px;
+  opacity: 0.7;
+}
+/* Input style */
+.input01 input {
+  border: none;
+  background-color: #4b4a4a;
+  opacity: 0.5;
+}
+.input01 input::placeholder {
+  color: white;
+}
+.input01 input {
+  width: 70%;
+  font-size: 15px;
+  padding: 15px;
+  margin-top: 1.8rem;
+  border-radius: 25px;
+  padding-left: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.header ::placeholder {
+  color: rgb(91, 109, 128);
+}
+.input02 input {
+  border: none;
+  background-color: #4b4a4a;
+  opacity: 0.5;
+}
+.input02 svg {
+  opacity: 0.5;
+}
+.input02 input::placeholder {
+  color: white;
+}
+.input02 input {
+  width: 70%;
+  font-size: 15px;
+  padding: 15px;
+  margin-top: 1.8rem;
+  border-radius: 25px;
+  padding-left: 30px;
+  outline: none;
+  align-items: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.input02 svg {
+  position: relative;
+  right: 45px;
+  top: 2px;
+}
+.hdn-p h1 {
+  font-size: 35px;
+  color: #ffffff;
+}
+.hdn-p p {
+  color: #ffffff;
+}
+
+/* Checkbox And Forgot Pass */
+.box-link {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+  margin-right: 10rem;
+  align-items: center;
+}
+
+.Remember-box {
+  display: flex;
+  gap: 15px;
+}
+.Remember-box input {
+  width: 15px;
+  height: 15px;
+}
+.Remember-box label {
+  color: #ffffff;
+  font-size: 15px;
+  opacity: 0.7;
+}
+.a-link a {
+  color: #b6450f;
+  font-size: 15px;
+}
+/* Sing in Button */
+.sing-in-btn {
+  margin-top: 1.5rem;
+  font-size: 15px;
+  background-color: #b6450f;
+  width: 70%;
+  padding: 15px;
+  border-radius: 25px;
+  text-align: center;
+}
+.sing-in-btn a {
+  color: white;
+  opacity: 1;
+}
+/* Section two */
+.nav02 {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  .nav02 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2.5rem;
+  }
+}
+.nav02 {
+  background-image: url(./img/Drum.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.img-hp {
+  color: white;
+  margin-top: 26rem;
+  text-shadow: 2px 2px 9px black;
+}
+.img-hp h1 {
+  font-weight: 350;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 33px;
+}
+.img-hp p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 280;
+  font-style: normal;
+  margin-top: 1.2rem;
+}
